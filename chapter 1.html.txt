@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 1: The Investment Panorama</title>
+    <style>
+        body { font-family: Arial; background:#f4f7fb; margin:0; line-height:1.8; }
+        .header { background:linear-gradient(to right,#003366,#0052cc); color:white; text-align:center; padding:40px; }
+        .nav { background:#002244; padding:15px; text-align:center; }
+        .nav a { color:white; text-decoration:none; margin:8px; padding:10px 15px; background:#0052cc; border-radius:6px; display:inline-block; }
+        .container { padding:35px; }
+        .section { background:white; padding:30px; margin-bottom:30px; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+        h2, h3 { color:#003366; }
+        .revise { background:#e8f4ff; border-left:6px solid #0052cc; padding:20px; border-radius:8px; }
+        .story { background:#f9f0ff; border-left:6px solid purple; padding:20px; border-radius:8px; }
+        .examiner { background:#fff3cd; border-left:6px solid orange; padding:20px; border-radius:8px; }
+        .quiz { background:#f1f1f1; padding:20px; border-radius:8px; }
+        .activity { background:#e8ffe8; border-left:6px solid green; padding:20px; border-radius:8px; }
+        textarea { width:100%; height:100px; padding:10px; }
+        button { background:#0052cc; color:white; border:none; padding:12px 18px; border-radius:6px; cursor:pointer; }
+        button:hover { background:#003d99; }
+        table { width:100%; border-collapse:collapse; margin-top:20px; }
+        th { background:#003366; color:white; padding:10px; }
+        td { border:1px solid #ccc; padding:10px; }
+        a.home { color:white; text-decoration:none; }
+    </style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Chapter 1: The Investment Panorama</h1>
+    <p>Understanding Saving, Investing and the Foundation of Mutual Fund Learning</p>
+</div>
+
+<div class="nav">
+    <a href="#unit1">1.1 Saving vs Investing</a>
+    <a href="#">1.2 Evaluation Factors</a>
+    <a href="#">1.3 Asset Classes</a>
+    <a href="#">1.4 Financial Needs</a>
+    <a href="#">1.5 Financial Goals</a>
+    <a href="#">1.6 Role of Mutual Funds</a>
+</div>
+
+<div class="container">
+
+<div class="section" id="unit1">
+    <h2>Unit 1.1: Saving vs Investing</h2>
+
+    <h3>Detailed Explanation</h3>
+
+    <p>
+        Saving and investing are two closely connected steps in financial planning.
+        Saving means setting aside a part of present income for future use. The main aim of saving is safety, liquidity and emergency availability.
+        A person saves money so that it can be used during uncertain situations such as medical needs, household expenses, education expenses or sudden financial requirements.
+    </p>
+
+    <p>
+        Investing, on the other hand, means putting money into financial or real assets with the expectation of earning income or wealth in future.
+        The main aim of investment is not merely safety, but growth of money over time. Investments may be made in shares, bonds, mutual funds, gold, real estate or other financial products.
+    </p>
+
+    <p>
+        Saving comes before investing. A person cannot invest unless some money is first saved from income.
+        Therefore, saving and investing should not be treated as enemies. They are two steps of the same financial journey.
+        Saving protects money, while investing helps money grow.
+    </p>
+
+    <p>
+        The important difference between saving and investing lies in risk and return.
+        Saving usually involves lower risk and lower return. Investing generally involves higher risk but also offers the possibility of higher return.
+        Therefore, every learner must understand the trade-off between safety, liquidity and return before choosing any financial product.
+    </p>
+
+    <div class="revise">
+        <h3>Let’s Revise</h3>
+        <p><b>Saving</b> means keeping money safely for future use.</p>
+        <p><b>Investing</b> means using money today to create more money in future.</p>
+
+        <ul>
+            <li>Saving focuses on safety and liquidity.</li>
+            <li>Investment focuses on growth and wealth creation.</li>
+            <li>Saving usually comes before investing.</li>
+            <li>Higher return generally involves higher risk.</li>
+        </ul>
+    </div>
+
+    <div class="story">
+        <h3>Story: Careful Megha and Risky Raj</h3>
+
+        <p>
+            Careful Megha keeps part of her monthly income in a savings account because she wants money available during emergencies.
+            She prefers safety and easy access to money.
+        </p>
+
+        <p>
+            Risky Raj invests part of his money in equity mutual funds because he wants his money to grow over the long term.
+            He understands that market values may rise or fall, but he is ready to take risk for possible higher return.
+        </p>
+
+        <p><b>Learning:</b> Saving gives comfort and safety. Investing gives growth and wealth creation.</p>
+    </div>
+
+    <div class="examiner">
+        <h3>The Examiner’s Lens</h3>
+
+        <p>
+            “Saving is the first step towards investment because only saved money can be invested for future wealth creation.”
+        </p>
+
+        <p><b>5-Mark Question:</b> Explain the meaning and importance of saving.</p>
+        <p><b>7-Mark Question:</b> Differentiate between saving and investing with suitable examples.</p>
+    </div>
+
+    <div class="quiz">
+        <h3>Quick Quiz Zone</h3>
+
+        <p>1. The primary objective of saving is:</p>
+        <input type="radio" name="q1"> Wealth maximization<br>
+        <input type="radio" name="q1" data-correct="yes"> Safety of money<br>
+        <input type="radio" name="q1"> Speculation<br>
+
+        <p>2. Which is generally a saving avenue?</p>
+        <input type="radio" name="q2"> Equity shares<br>
+        <input type="radio" name="q2" data-correct="yes"> Fixed deposit<br>
+        <input type="radio" name="q2"> Cryptocurrency<br>
+
+        <p>3. Investment mainly aims at:</p>
+        <input type="radio" name="q3"> Wealth creation<br>
+        <input type="radio" name="q3" data-correct="yes"> Wealth creation<br>
+        <input type="radio" name="q3"> Avoiding all risk<br>
+
+        <p>4. Saving usually comes:</p>
+        <input type="radio" name="q4" data-correct="yes"> Before investment<br>
+        <input type="radio" name="q4"> After investment only<br>
+        <input type="radio" name="q4"> Only after retirement<br>
+
+        <p>5. Higher returns generally involve:</p>
+        <input type="radio" name="q5"> No risk<br>
+        <input type="radio" name="q5" data-correct="yes"> Higher risk<br>
+        <input type="radio" name="q5"> Guaranteed profit<br>
+
+        <button onclick="checkScore()">Check My Score</button>
+        <h3 id="score"></h3>
+    </div>
+
+    <div class="activity">
+        <h3>Mini Activity</h3>
+        <p>
+            Suppose you receive ₹20,000 today. How much will you keep for emergency savings and how much will you invest for future growth? Explain your reason.
+        </p>
+        <textarea placeholder="Write your answer here..."></textarea><br>
+        <button onclick="alert('Activity submitted for self-practice!')">Submit Activity</button>
+    </div>
+
+    <h3>Saving vs Investing Comparison</h3>
+
+    <table>
+        <tr>
+            <th>Basis</th>
+            <th>Saving</th>
+            <th>Investing</th>
+        </tr>
+        <tr>
+            <td>Main Objective</td>
+            <td>Safety</td>
+            <td>Wealth Creation</td>
+        </tr>
+        <tr>
+            <td>Risk Level</td>
+            <td>Low</td>
+            <td>Medium to High</td>
+        </tr>
+        <tr>
+            <td>Return Potential</td>
+            <td>Low</td>
+            <td>Higher</td>
+        </tr>
+        <tr>
+            <td>Time Horizon</td>
+            <td>Short-term</td>
+            <td>Long-term</td>
+        </tr>
+        <tr>
+            <td>Suitable For</td>
+            <td>Emergencies</td>
+            <td>Financial Goals</td>
+        </tr>
+    </table>
+
+</div>
+
+<center>
+    <button><a class="home" href="lessons.html">Back to Lessons Menu</a></button>
+</center>
+
+</div>
+
+<script>
+function checkScore() {
+    let score = 0;
+    let correctAnswers = document.querySelectorAll('input[data-correct="yes"]');
+
+    correctAnswers.forEach(function(answer) {
+        if (answer.checked) {
+            score++;
+        }
+    });
+
+    let feedback = "";
+
+    if (score == 5) {
+        feedback = "Excellent Financial Foundation!";
+    } else if (score >= 3) {
+        feedback = "Good Understanding. Revise once more.";
+    } else {
+        feedback = "Please revise the concept again.";
+    }
+
+    document.getElementById("score").innerHTML = "Your Score: " + score + " / 5<br>" + feedback;
+}
+</script>
+
+</body>
+</html>
