@@ -1,51 +1,249 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mutual Fund Lessons</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f7fb;
+            line-height: 1.7;
+        }
+
+        .header {
+            background-color: #003366;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 40px;
+        }
+
+        .section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+        }
+
+        h1, h2, h3 {
+            color: #003366;
+        }
+
+        .revise-box {
+            background-color: #e8f4ff;
+            padding: 20px;
+            border-left: 6px solid #0052cc;
+            margin-top: 20px;
+        }
+
+        .examiner-box {
+            background-color: #fff3cd;
+            padding: 20px;
+            border-left: 6px solid #ff9800;
+            margin-top: 20px;
+        }
+
+        .quiz-box {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        button {
+            background-color: #0052cc;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background-color: #003d99;
+        }
+
+        textarea {
+            width: 100%;
+            height: 120px;
+            margin-top: 15px;
+            padding: 10px;
+        }
+
+        .back-home {
+            text-align: center;
+            margin: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+    </style>
+
 </head>
 
-<body style="font-family: Arial; background-color:#f4f7fb; padding:40px;">
+<body>
 
-    <h1>Mutual Fund Lessons</h1>
+    <div class="header">
+        <h1>Mutual Fund Lessons</h1>
+        <p>Learn Investing Concepts in a Simple & Interactive Way</p>
+    </div>
 
-    <h2>Lesson 1: What is Mutual Fund?</h2>
+    <div class="container">
 
-    <p>
-        A mutual fund pools money from many investors and invests in shares,
-        bonds and securities.
-    </p>
+        <!-- Saving Section -->
 
-    <h2>Lesson 2: What is NAV?</h2>
+        <div class="section">
 
-    <p>
-        NAV means Net Asset Value. It is the price of one unit of mutual fund.
-    </p>
+            <h2>What is Saving?</h2>
 
-    <h2>Lesson 3: What is SIP?</h2>
+            <p>
+                Saving refers to the process of setting aside a portion of present income for future use.
+                The primary objective of saving is safety and emergency availability of money.
+            </p>
 
-    <p>
-        SIP means Systematic Investment Plan where investor invests fixed amount regularly.
-    </p>
+            <p>
+                Common saving avenues include savings accounts, fixed deposits,
+                recurring deposits and cash reserves.
+            </p>
 
-    <h2>Lesson 4: Types of Mutual Funds</h2>
+            <div class="revise-box">
 
-    <ul>
-        <li>Equity Funds</li>
-        <li>Debt Funds</li>
-        <li>Hybrid Funds</li>
-        <li>Index Funds</li>
-    </ul>
+                <h3>Let’s Revise</h3>
 
-    <h2>Lesson 5: Risk and Return</h2>
+                <p>
+                    Saving means keeping money safely for future use.
+                </p>
 
-    <p>
-        Higher returns generally come with higher risk.
-    </p>
+                <ul>
+                    <li>Safety</li>
+                    <li>Liquidity</li>
+                    <li>Emergency availability</li>
+                </ul>
 
-    <br><br>
+            </div>
 
-    <a href="index.html">Back to Home</a>
+            <div class="examiner-box">
+
+                <h3>The Examiner’s Lens</h3>
+
+                <p>
+                    Saving is the first step towards investment because only saved money can be invested.
+                </p>
+
+            </div>
+
+            <div class="quiz-box">
+
+                <h3>Quick Quiz Zone</h3>
+
+                <p>1. What is the primary objective of saving?</p>
+
+                <input type="radio"> High Risk <br>
+                <input type="radio"> Safety of Money <br>
+                <input type="radio"> Speculation <br>
+
+                <p><b>Correct Answer:</b> Safety of Money</p>
+
+            </div>
+
+        </div>
+
+        <!-- Investment Section -->
+
+        <div class="section">
+
+            <h2>What is Investing?</h2>
+
+            <p>
+                Investment means allocating money into assets with the objective of wealth creation.
+            </p>
+
+            <p>
+                Investments are commonly made in shares, mutual funds, bonds,
+                gold and real estate.
+            </p>
+
+            <div class="revise-box">
+
+                <h3>Let’s Revise</h3>
+
+                <p>
+                    Investing means using money today to create more money in future.
+                </p>
+
+                <ul>
+                    <li>Wealth creation</li>
+                    <li>Inflation protection</li>
+                    <li>Future growth</li>
+                </ul>
+
+            </div>
+
+            <div class="examiner-box">
+
+                <h3>The Examiner’s Lens</h3>
+
+                <p>
+                    Investment helps in wealth creation and achieving long-term financial goals.
+                </p>
+
+            </div>
+
+            <div class="quiz-box">
+
+                <h3>Quick Quiz Zone</h3>
+
+                <p>1. Main objective of investment is:</p>
+
+                <input type="radio"> Safety only <br>
+                <input type="radio"> Wealth creation <br>
+                <input type="radio"> Cash holding <br>
+
+                <p><b>Correct Answer:</b> Wealth creation</p>
+
+            </div>
+
+        </div>
+
+        <!-- Mini Activity -->
+
+        <div class="section">
+
+            <h2>Mini Activity</h2>
+
+            <p>
+                Suppose you receive ₹50,000 today.
+                Where would you save and invest the amount?
+            </p>
+
+            <textarea placeholder="Write your answer here..."></textarea>
+
+            <button>Submit Activity</button>
+
+        </div>
+
+    </div>
+
+    <div class="back-home">
+
+        <button>
+            <a href="index.html">Back to Home</a>
+        </button>
+
+    </div>
 
 </body>
 
