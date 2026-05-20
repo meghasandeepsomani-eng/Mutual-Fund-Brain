@@ -1,392 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mutual Fund Lessons</title>
-
     <style>
-
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f7fb;
-            line-height: 1.8;
-        }
-
-        .header {
-            background: linear-gradient(to right, #003366, #0052cc);
-            color: white;
-            text-align: center;
-            padding: 40px;
-        }
-
-        .header h1 {
-            font-size: 42px;
-        }
-
-        .container {
-            padding: 40px;
-        }
-
-        .section {
-            background-color: white;
-            padding: 30px;
-            margin-bottom: 35px;
-            border-radius: 12px;
-            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-        }
-
-        h2 {
-            color: #003366;
-            margin-top: 0;
-        }
-
-        h3 {
-            color: #0052cc;
-        }
-
-        .revise-box {
-            background-color: #e8f4ff;
-            padding: 20px;
-            border-left: 6px solid #0052cc;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
-
-        .story-box {
-            background-color: #f9f0ff;
-            padding: 20px;
-            border-left: 6px solid purple;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
-
-        .examiner-box {
-            background-color: #fff3cd;
-            padding: 20px;
-            border-left: 6px solid orange;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
-
-        .quiz-box {
-            background-color: #f1f1f1;
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
-
-        .activity-box {
-            background-color: #e8ffe8;
-            padding: 20px;
-            border-left: 6px solid green;
-            border-radius: 8px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        table, th, td {
-            border: 1px solid #ccc;
-        }
-
-        th {
-            background-color: #003366;
-            color: white;
-            padding: 12px;
-        }
-
-        td {
-            padding: 12px;
-        }
-
-        button {
-            background-color: #0052cc;
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 6px;
-            cursor: pointer;
-            margin-top: 15px;
-        }
-
-        button:hover {
-            background-color: #003d99;
-        }
-
-        textarea {
-            width: 100%;
-            height: 120px;
-            margin-top: 15px;
-            padding: 10px;
-            border-radius: 8px;
-        }
-
-        .footer {
-            background-color: #003366;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        a {
-            color: white;
-            text-decoration: none;
-        }
-
+        body { font-family: Arial; background:#f4f7fb; margin:0; }
+        .header { background:#003366; color:white; text-align:center; padding:35px; }
+        .container { padding:35px; display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; }
+        .card { background:white; padding:25px; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+        h2 { color:#003366; }
+        button { background:#0052cc; color:white; border:none; padding:12px 18px; border-radius:6px; cursor:pointer; }
+        button:hover { background:#003d99; }
+        a { text-decoration:none; color:white; }
     </style>
-
 </head>
-
 <body>
 
-    <div class="header">
-        <h1>Mutual Fund Lessons</h1>
-        <p>Interactive Financial Learning Platform</p>
+<div class="header">
+    <h1>Mutual Fund Lessons</h1>
+    <p>Chapter-wise Learning Menu</p>
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Chapter 1: The Investment Panorama</h2>
+        <p>Saving, investing, asset classes, financial needs, goals and role of mutual funds.</p>
+        <a href="chapter1.html"><button>Start Chapter 1</button></a>
     </div>
 
-    <div class="container">
-
-        <!-- SAVING -->
-
-        <div class="section">
-
-            <h2>What is Saving?</h2>
-
-            <p>
-                Saving refers to the process of setting aside a portion of present income for future use.
-                The primary objective of saving is not to earn very high returns, but to ensure safety and availability of money whenever required.
-            </p>
-
-            <p>
-                Saving is considered the first stage of financial planning because investment can only happen after money has been saved.
-            </p>
-
-            <div class="revise-box">
-
-                <h3>Let’s Revise</h3>
-
-                <p>
-                    Saving means keeping money safely for future use.
-                </p>
-
-                <ul>
-                    <li>Safety</li>
-                    <li>Liquidity</li>
-                    <li>Emergency availability</li>
-                </ul>
-
-            </div>
-
-            <div class="story-box">
-
-                <h3>👩 Careful Megha</h3>
-
-                <p>
-                    Megha keeps part of her salary in a savings account because she wants money available anytime for emergencies.
-                </p>
-
-                <p>
-                    <b>Learning:</b> Saving focuses on safety and availability of money.
-                </p>
-
-            </div>
-
-            <div class="examiner-box">
-
-                <h3>The Examiner’s Lens</h3>
-
-                <p>
-                    “Saving is the first step towards investment because only saved money can be invested.”
-                </p>
-
-            </div>
-
-            <div class="quiz-box">
-
-                <h3>Quick Quiz Zone</h3>
-
-                <p>1. Main objective of saving is:</p>
-
-                <input type="radio"> High returns <br>
-                <input type="radio"> Safety of money <br>
-                <input type="radio"> Speculation <br>
-
-                <p><b>Correct Answer:</b> Safety of money</p>
-
-                <p>2. Which is a saving avenue?</p>
-
-                <input type="radio"> Cryptocurrency <br>
-                <input type="radio"> Fixed Deposit <br>
-                <input type="radio"> Equity shares <br>
-
-                <p><b>Correct Answer:</b> Fixed Deposit</p>
-
-            </div>
-
-        </div>
-
-        <!-- INVESTING -->
-
-        <div class="section">
-
-            <h2>What is Investing?</h2>
-
-            <p>
-                Investment refers to the process of allocating money into financial assets for generating future income and wealth.
-            </p>
-
-            <p>
-                Investments are commonly made in shares, mutual funds, bonds, gold and real estate.
-            </p>
-
-            <div class="revise-box">
-
-                <h3>Let’s Revise</h3>
-
-                <p>
-                    Investing means using money today to create more money in future.
-                </p>
-
-                <ul>
-                    <li>Wealth creation</li>
-                    <li>Future growth</li>
-                    <li>Inflation protection</li>
-                </ul>
-
-            </div>
-
-            <div class="story-box">
-
-                <h3>🚀 Risky Raj</h3>
-
-                <p>
-                    Raj invests in company shares expecting higher future returns.
-                </p>
-
-                <p>
-                    <b>Learning:</b> Higher returns generally involve higher risk.
-                </p>
-
-            </div>
-
-            <div class="examiner-box">
-
-                <h3>The Examiner’s Lens</h3>
-
-                <p>
-                    “Investment helps in wealth creation and achieving long-term financial goals.”
-                </p>
-
-            </div>
-
-            <div class="quiz-box">
-
-                <h3>Quick Quiz Zone</h3>
-
-                <p>1. Primary objective of investment is:</p>
-
-                <input type="radio"> Wealth creation <br>
-                <input type="radio"> Safety only <br>
-                <input type="radio"> Cash holding <br>
-
-                <p><b>Correct Answer:</b> Wealth creation</p>
-
-                <p>2. Which is an investment avenue?</p>
-
-                <input type="radio"> Savings account <br>
-                <input type="radio"> Equity shares <br>
-                <input type="radio"> Piggy bank <br>
-
-                <p><b>Correct Answer:</b> Equity shares</p>
-
-            </div>
-
-        </div>
-
-        <!-- COMPARISON TABLE -->
-
-        <div class="section">
-
-            <h2>Saving vs Investing Comparison</h2>
-
-            <table>
-
-                <tr>
-                    <th>Basis</th>
-                    <th>Saving</th>
-                    <th>Investing</th>
-                </tr>
-
-                <tr>
-                    <td>Main Objective</td>
-                    <td>Safety</td>
-                    <td>Wealth Creation</td>
-                </tr>
-
-                <tr>
-                    <td>Risk Level</td>
-                    <td>Low</td>
-                    <td>Medium to High</td>
-                </tr>
-
-                <tr>
-                    <td>Return Potential</td>
-                    <td>Low</td>
-                    <td>Higher</td>
-                </tr>
-
-                <tr>
-                    <td>Time Horizon</td>
-                    <td>Short-term</td>
-                    <td>Long-term</td>
-                </tr>
-
-            </table>
-
-        </div>
-
-        <!-- MINI ACTIVITY -->
-
-        <div class="section activity-box">
-
-            <h2>Mini Activity</h2>
-
-            <p>
-                Suppose you receive ₹20,000 today.
-                How much would you:
-            </p>
-
-            <ul>
-                <li>keep as savings?</li>
-                <li>invest for future?</li>
-            </ul>
-
-            <textarea placeholder="Write your answer here..."></textarea>
-
-            <button>Submit Activity</button>
-
-        </div>
-
-        <center>
-
-            <button>
-                <a href="index.html">Back to Home</a>
-            </button>
-
-        </center>
-
+    <div class="card">
+        <h2>Chapter 2: Concept and Role of Mutual Funds</h2>
+        <p>Meaning, features, role, benefits and classification of mutual funds.</p>
+        <button>Coming Soon</button>
     </div>
 
-    <div class="footer">
-        Created by Megha Somani | Mutual Fund Brain © 2026
+    <div class="card">
+        <h2>Chapter 3: Mutual Fund Structure in India</h2>
+        <p>Sponsor, trustees, AMC, custodian, registrar, AMFI and SEBI.</p>
+        <button>Coming Soon</button>
     </div>
+
+    <div class="card">
+        <h2>Chapter 4: Mutual Fund Products</h2>
+        <p>Equity, debt, hybrid, liquid, index funds, ETFs and goal-based products.</p>
+        <button>Coming Soon</button>
+    </div>
+
+</div>
 
 </body>
-
 </html>
